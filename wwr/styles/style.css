@@ -24,6 +24,7 @@ main section {
     height: 725px;
 }
 .logo {
+    background-color: white;
     width: 80px;
 }
 #hero-msg h1, #hero-msg h4 {
