@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@300&display=swap');
+
 div {
     max-width: 1600px;
     margin: 0 auto;
@@ -9,6 +11,7 @@ nav a {
     text-align: center;
     color: #f0f8fa;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #f6df79;
@@ -20,52 +23,89 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
+}
+body {
+    background-color: #f0f8fa;
+    font-family: Nunito, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .logo {
     background-color: white;
     width: 80px;
+}
+#hero-img {
+    width: 100%;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .home-title {
     color: #3ba3ba;
+    font-family: Bangers, Impact, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: #3ba3ba;
-}
-body {
-    background-color: #f0f8fa;
 }
 .book, .join {
     background-color: #f6df79;
     color: #184F77;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #3ba3ba;
     color: #f0f8fa
 }
+.card-img {
+    border: 10px solid #184F77;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 #background {
     background-color: #3ba3ba;
 }
 .msg {
-    background-color: #184F77
+    background-color: #184F77;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #f0f8fa;
+    font-family: Bangers, Impact, sans-serif;
 }
 .msg p {
     color: #f0f8fa;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #184F77;
     color: #f0f8fa;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #f0f8fa;
@@ -79,4 +119,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
