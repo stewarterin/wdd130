@@ -1,0 +1,27 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+p.descriptive {
+    font-family: serif;
+    font-size: 8em;
+    font-weight: bolder;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    padding: 0;
+    width: 100%
+}
+p.name {
+    font-family: serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(194, 17, 17);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
