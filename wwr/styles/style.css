@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@300&display=swap');
 
-div {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -184,8 +184,63 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+.rivers-heading {
+    color: #3ba3ba;
+    font-family: Bangers, Impact, sans-serif;
+    font-size: 2.7em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 50px;
+}
+.river-grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-top: 120px;
+}
+.river-names {
+    color: #184F77;
+    line-height: 1.5;
+    font-size: 47px;
+    padding-top: 30px;
+    margin-left: 15px;
+    grid-column: 1/2;
+    text-shadow: 5px 5px 6px #184f776f;
+}
+ul {
+    list-style-type: square;
+    font-size: 28px;
+    line-height: 2.8;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border: 0px;
+    margin: 0px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+#list-background {
+    display: inline-block;
+    background-color: #3ba3ba;  
+    grid-column: 1/2; 
+    grid-row: 2/4;
+    z-index: -1;
+    border-radius: 4px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 5px 5px 10px #000910d9;
+}
+.rivers {
+    grid-column: 2/3;
+    grid-row:1/4;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #000910;
+}
+.river-text {
+    grid-column: 1/3;
+    margin-top: 40px;
+}
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .river-grid {
         display: block;
         height: auto;
     }
