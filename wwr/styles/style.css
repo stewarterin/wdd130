@@ -217,7 +217,7 @@ ul {
     margin-top: 65px;
     margin-left: 30px;
 }
-#list-background {
+.list-background {
     display: inline-block;
     background-color: #3ba3ba;  
     grid-column: 1/2; 
