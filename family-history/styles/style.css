@@ -4,6 +4,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+* {
+    box-sizing: border;
+}
 body {
     font-family: Lora, 'Times New Roman', Times, serif;
     font-size: 1.5em;
@@ -128,10 +131,11 @@ main a:hover {
 .subtitle {
     border: 3px solid #549063;
     border-radius: 17px;
-    padding: 25px;
+    padding: 20px;
     font-family: "Julius Sans One", Tahoma, sans-serif;
     color: #549063;
-    width: 270px;
+    font-size: 1em;
+    width: 80%;
     box-shadow: 1px 1px 3px;
     text-align: center;
     grid-column: 2/3;
@@ -139,7 +143,7 @@ main a:hover {
 }
 #connect {
     display: grid;
-    grid-template-columns: 20% 14% 1% 45% 20%;
+    grid-template-columns: 20% 14% 3% 42% 20%;
     row-gap: 70px;
     margin-bottom: 80px;
     margin-top: 20px;
