@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 * {
-    box-sizing: border;
+    box-sizing: border-box;
 }
 body {
     font-family: Lora, 'Times New Roman', Times, serif;
@@ -62,10 +62,13 @@ h1 {
 }
 #list {
     display: grid;
-    grid-template-columns: 20% 10% 50% 20%;
+    grid-template-columns: 20% 7% 2% 50% 20%;
     row-gap: 90px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+#list p {
+    grid-column: 4/5;
 }
 .numbers {
     grid-column: 2/3;
@@ -76,7 +79,7 @@ h1 {
     padding: 25px;
     font-family: "Julius Sans One", Tahoma, sans-serif;
     color: #549063;
-    width: 40px;
+    width: 70%;
     box-shadow: 3px 3px 10px;
 }
 main a {
@@ -135,7 +138,7 @@ main a:hover {
     font-family: "Julius Sans One", Tahoma, sans-serif;
     color: #549063;
     font-size: 1em;
-    width: 80%;
+    width: 100%;
     box-shadow: 1px 1px 3px;
     text-align: center;
     grid-column: 2/3;
